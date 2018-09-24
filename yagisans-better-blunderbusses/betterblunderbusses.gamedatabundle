@@ -20,10 +20,10 @@
 					}
 				},
 				{
-					"$type": "Game.GameData.AttackRangedComponent, Assembly-CSharp",
+					"$type": "Game.GameData.AttackRangedComponent, Assembly-CSharp"
 				},
 				{
-					"$type": "Game.GameData.AttackFirearmComponent, Assembly-CSharp",
+					"$type": "Game.GameData.AttackFirearmComponent, Assembly-CSharp"
 				}
 			]
 		}
