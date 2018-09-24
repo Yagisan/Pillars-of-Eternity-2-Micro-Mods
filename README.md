@@ -14,3 +14,6 @@ All blunderbusses will now do the better of Pierce or Crush damage.
 ## Magic Wands
 All wands will now do the better of Shock or Pierce damage.
 
+## Magic Rods
+All rods will now do the better of Corrode or Crush damage.
+

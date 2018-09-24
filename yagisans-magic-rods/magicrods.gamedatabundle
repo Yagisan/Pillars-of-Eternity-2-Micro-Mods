@@ -1,0 +1,22 @@
+{
+	"GameDataObjects": [
+	{
+		"$type": "Game.GameData.AttackRangedGameData, Assembly-CSharp",
+		"DebugName": "Rod",
+		"ID": "59ed50ee-888f-4167-9257-ab360bc0fdc5",
+		"Components": [{
+			"$type": "Game.GameData.AttackBaseComponent, Assembly-CSharp",
+			"KeywordsIDs": ["73fa584e-d9cf-4132-bb0c-402fee6fe72d"],
+			"DamageData": {
+				"DamageType": "Corrode",
+				"AlternateDamageType": "Crush",
+				"Minimum": 15,
+				"Maximum": 24,
+				"DamageProcs": []
+			}
+		},
+		{
+			"$type": "Game.GameData.AttackRangedComponent, Assembly-CSharp"
+		}]
+	}]
+}

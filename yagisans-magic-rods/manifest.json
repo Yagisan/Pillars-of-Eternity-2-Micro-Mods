@@ -1,0 +1,14 @@
+{
+	"Title": {
+		"en": "Magic Rods"
+	},
+	"Description": {
+		"en": "All rods will now do the better of Corrode or Crush damage."
+	},
+	"Author": "Yagisan",
+	"ModVersion": "1.0.0",
+	"SupportedGameVersion": {
+		"Min": "1.0.0",
+		"Max": "3.0.0"
+	}
+}
