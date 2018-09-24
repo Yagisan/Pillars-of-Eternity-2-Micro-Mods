@@ -17,3 +17,6 @@ All wands will now do the better of Shock or Pierce damage.
 ## Magic Rods
 All rods will now do the better of Corrode or Crush damage.
 
+## Magic Sceptres
+All sceptres will now do the better of Freeze or Pierce damage.
+

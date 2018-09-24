@@ -1,0 +1,22 @@
+{
+	"GameDataObjects": [
+	{
+		"$type": "Game.GameData.AttackRangedGameData, Assembly-CSharp",
+		"DebugName": "Sceptre",
+		"ID": "cf7cb330-263b-4a58-9646-3dbdbd3736d8",
+		"Components": [{
+			"$type": "Game.GameData.AttackBaseComponent, Assembly-CSharp",
+			"KeywordsIDs": ["701dba21-d7a6-45c1-9be5-e1a7c33906d2"],
+				"DamageData": {
+					"DamageType": "Freeze",
+					"AlternateDamageType": "Pierce",
+					"Minimum": 9,
+					"Maximum": 13,
+					"DamageProcs": []
+				}
+		},
+		{
+			"$type": "Game.GameData.AttackRangedComponent, Assembly-CSharp"
+		}]
+	}]
+}
