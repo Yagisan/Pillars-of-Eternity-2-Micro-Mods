@@ -5,3 +5,6 @@ This is a collection of micro mods for Pillars of Eternity 2. Each mod is focuss
 ## Better Pistols
 All pistols will now do the better of Pierce or Crush damage.
 
+## Better Arquebuses
+All arquebuses will now do the better of Pierce or Crush damage.
+
