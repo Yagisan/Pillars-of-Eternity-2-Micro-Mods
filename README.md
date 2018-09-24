@@ -11,3 +11,6 @@ All arquebuses will now do the better of Pierce or Crush damage.
 ## Better Blunderbusses
 All blunderbusses will now do the better of Pierce or Crush damage.
 
+## Magic Wands
+All wands will now do the better of Shock or Pierce damage.
+

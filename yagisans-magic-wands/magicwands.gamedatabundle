@@ -1,0 +1,22 @@
+{
+	"GameDataObjects": [
+	{
+		"$type": "Game.GameData.AttackRangedGameData, Assembly-CSharp",
+		"DebugName": "Wand",
+		"ID": "43e952b6-1574-4c86-8f9c-76627889893d",
+		"Components": [{
+			"$type": "Game.GameData.AttackBaseComponent, Assembly-CSharp",
+			"KeywordsIDs": ["4c42edf3-a6b7-4835-bee9-b1e7667b2aed"],
+			"DamageData": {
+				"DamageType": "Shock",
+				"AlternateDamageType": "Pierce",
+				"Minimum": 8,
+				"Maximum": 14,
+				"DamageProcs": []
+			}
+		},
+		{
+			"$type": "Game.GameData.AttackRangedComponent, Assembly-CSharp"
+		}]
+	}]
+}
