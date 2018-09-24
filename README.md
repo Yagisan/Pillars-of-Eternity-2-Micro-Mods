@@ -8,3 +8,6 @@ All pistols will now do the better of Pierce or Crush damage.
 ## Better Arquebuses
 All arquebuses will now do the better of Pierce or Crush damage.
 
+## Better Blunderbusses
+All blunderbusses will now do the better of Pierce or Crush damage.
+
