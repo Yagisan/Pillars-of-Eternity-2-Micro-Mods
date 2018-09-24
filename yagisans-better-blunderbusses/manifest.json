@@ -6,7 +6,7 @@
 		"en": "All blunderbusses will now do the better of Pierce or Crush damage."
 	},
 	"Author": "Yagisan",
-	"ModVersion": "1.0.0",
+	"ModVersion": "1.0.1",
 	"SupportedGameVersion": {
 		"Min": "1.0.0",
 		"Max": "3.0.0"
