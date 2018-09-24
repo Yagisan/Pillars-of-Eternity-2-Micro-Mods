@@ -11,135 +11,19 @@
 						"b88b5e1a-9ef2-4aba-bde9-3cabb5c1a89a",
 						"1b6d77c8-1155-4d49-9c7c-548716f0d409"
 					],
-					"AttackDistance": 12,
-					"MinAttackDistance": 0,
-					"AttackVariationID": "e11776d7-fd19-4196-8875-a3f0d7328b41",
-					"UseParentEquippableHand": "false",
-					"CastSpeedID": "eacb53e3-6eb5-422a-92ca-99cc883ae4a9",
-					"RecoveryTimeID": "039ef4b4-eeb3-42d3-9817-a8df05c53515",
-					"ImpactDelay": 0,
-					"ForcedTarget": "None",
-					"AffectedTargetType": "All",
-					"AffectedTargetConditional": {
-						"Conditional": {
-							"Operator": 0,
-							"Components": []
-						}
-					},
-					"AffectedTargetDeathState": "Alive",
-					"HostilityOverride": "Default",
-					"PushDistance": 0,
-					"FaceTarget": "true",
-					"AccuracyBonus": 0,
-					"PenetrationRating": 9,
 					"DamageData": {
 						"DamageType": "Pierce",
 						"AlternateDamageType": "Crush",
 						"Minimum": 20,
 						"Maximum": 26,
 						"DamageProcs": []
-					},
-					"RequiresHitObject": "true",
-					"StatusEffectKeywordsIDs": [],
-					"StatusEffectsIDs": [],
-					"RandomizeStatusEffect": "false",
-					"CanGraze": "false",
-					"CanCrit": "true",
-					"DefendedBy": "Deflect",
-					"AfflictionsDefendedBy": "None",
-					"AfflictionApplicationModifier": "None",
-					"SubstituteHitVisualEffect": "",
-					"VisualEffects": [
-						{
-							"VisualEffect": "prefabs/effects/items/weapons/fx_action_flash_launch_01.prefab",
-							"AttachPoint": "Fx_Bone_02",
-							"AttachObject": "Caster",
-							"AttachMode": "Attach",
-							"MeshType": "None",
-							"Event": "OnAnimEvent",
-							"AnimEventID": 0,
-							"Loop": "false",
-							"Scale": "false"
-						},
-						{
-							"VisualEffect": "prefabs/effects/items/weapons/fx_muzzle_flash_launch_01.prefab",
-							"AttachPoint": "Fx_Bone_01",
-							"AttachObject": "Caster",
-							"AttachMode": "PositionRotation",
-							"MeshType": "None",
-							"Event": "OnLaunch",
-							"AnimEventID": 0,
-							"Loop": "false",
-							"Scale": "false"
-						},
-						{
-							"VisualEffect": "prefabs/effects/items/weapons/fx_arquebus_smoke_linger.prefab",
-							"AttachPoint": "Fx_Bone_01",
-							"AttachObject": "Caster",
-							"AttachMode": "Attach",
-							"MeshType": "None",
-							"Event": "OnLaunch",
-							"AnimEventID": 0,
-							"Loop": "false",
-							"Scale": "false"
-						}
-					],
-					"AttackOnImpactID": "00000000-0000-0000-0000-000000000000",
-					"ExtraAttackID": "00000000-0000-0000-0000-000000000000",
-					"LaunchBone": "Fx_Bone_01",
-					"HitBone": "Chest",
-					"OnHitShakeDuration": "None",
-					"OnHitShakeStrength": "None",
-					"NoiseLevelID": "82bc1ce9-3a81-41ca-a61a-cc1f73a53de7",
-					"AllReactNoise": "false",
-					"InterruptsOn": "None",
-					"InterruptType": "Normal",
-					"TargetAngle": 0,
-					"ApplyOnceOnly": "false",
-					"PathsToTarget": "true",
-					"HideFromCombatLog": "false",
-					"AdditionalAttackOnTooltip": "false",
-					"DoesNotApplyDamage": "false",
-					"TreatAsWeapon": "false",
-					"BounceData": {
-						"Bounces": 0,
-						"Multiplier": 0.5,
-						"Range": 4,
-						"InRangeOrder": "true",
-						"NoRepeatTargets": "false",
-						"AlwaysBounceAtEnemies": "true",
-						"Delay": 0,
-						"NeverBounce": "false"
 					}
 				},
 				{
 					"$type": "Game.GameData.AttackRangedComponent, Assembly-CSharp",
-					"LaunchAttackOnCollision": "false",
-					"ProjectileCount": 1,
-					"IgnoreMagicDefense": "false",
-					"ProjectileConeAngle": 145,
-					"ProjectilePrefab": "prefabs/projectiles/invisible_projectile.prefab",
-					"IsMultiHit": "false",
-					"MultiHitTravelDist": 10,
-					"MultiHitMaxHits": 0,
-					"LaunchSource": "Caster",
-					"LaunchOffset": {
-						"x": 0,
-						"y": 0,
-						"z": 0
-					},
-					"LaunchOffsetRandom": {
-						"x": 0,
-						"y": 0,
-						"z": 0
-					}
 				},
 				{
 					"$type": "Game.GameData.AttackFirearmComponent, Assembly-CSharp",
-					"ClipSize": 1,
-					"ReloadTime": 6.8,
-					"ReloadAnimationEndTime": 1.16,
-					"FirearmType": "Rifle"
 				}
 			]
 		}
