@@ -18,5 +18,44 @@
 		{
 			"$type": "Game.GameData.AttackRangedComponent, Assembly-CSharp"
 		}]
-	}]
+	},
+	{
+		"$type": "Game.GameData.AttackRangedGameData, Assembly-CSharp",
+		"DebugName": "Animated_Wand_Summon_Attack",
+		"ID": "0ad23fe8-3da6-4e33-8ef6-163e67dff0c3",
+		"Components": [{
+			"$type": "Game.GameData.AttackBaseComponent, Assembly-CSharp",
+			"KeywordsIDs": ["4c42edf3-a6b7-4835-bee9-b1e7667b2aed"],
+			"DamageData": {
+				"DamageType": "Shock",
+				"AlternateDamageType": "Pierce",
+				"Minimum": 8,
+				"Maximum": 14,
+				"DamageProcs": []
+			}
+		},
+		{
+			"$type": "Game.GameData.AttackRangedComponent, Assembly-CSharp"
+		}]
+	},
+	{
+		"$type": "Game.GameData.AttackRangedGameData, Assembly-CSharp",
+		"DebugName": "Wand_Lagufaeth_Attack",
+		"ID": "6f5aa5aa-0b26-4972-b40f-e8a1f4974c92",
+		"Components": [{
+			"$type": "Game.GameData.AttackBaseComponent, Assembly-CSharp",
+			"KeywordsIDs": ["4c42edf3-a6b7-4835-bee9-b1e7667b2aed"],
+			"DamageData": {
+				"DamageType": "Shock",
+				"AlternateDamageType": "Pierce",
+				"Minimum": 8,
+				"Maximum": 14,
+				"DamageProcs": []
+			}
+		},
+		{
+			"$type": "Game.GameData.AttackRangedComponent, Assembly-CSharp"
+		}]
+	}
+	]
 }
