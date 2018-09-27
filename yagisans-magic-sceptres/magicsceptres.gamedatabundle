@@ -7,16 +7,37 @@
 		"Components": [{
 			"$type": "Game.GameData.AttackBaseComponent, Assembly-CSharp",
 			"KeywordsIDs": ["701dba21-d7a6-45c1-9be5-e1a7c33906d2"],
-				"DamageData": {
-					"DamageType": "Freeze",
-					"AlternateDamageType": "Pierce",
-					"Minimum": 9,
-					"Maximum": 13,
-					"DamageProcs": []
-				}
+			"DamageData": {
+				"DamageType": "Freeze",
+				"AlternateDamageType": "Pierce",
+				"Minimum": 9,
+				"Maximum": 13,
+				"DamageProcs": []
+			}
 		},
 		{
 			"$type": "Game.GameData.AttackRangedComponent, Assembly-CSharp"
 		}]
-	}]
+	},
+	{
+		"$type": "Game.GameData.AttackRangedGameData, Assembly-CSharp",
+		"DebugName": "Keybreaker_Sceptre",
+		"ID": "832d8f64-ead8-44cf-bb48-65e3d1dc5254",
+		"Components": [{
+			"$type": "Game.GameData.AttackBaseComponent, Assembly-CSharp",
+			"KeywordsIDs": ["701dba21-d7a6-45c1-9be5-e1a7c33906d2",
+							"ab8d8fa0-bb8a-491d-b10a-76af34f9d5db"],
+			"DamageData": {
+				"DamageType": "Freeze",
+				"AlternateDamageType": "Pierce",
+				"Minimum": 9,
+				"Maximum": 13,
+				"DamageProcs": []
+			}
+		},
+			{
+				"$type": "Game.GameData.AttackRangedComponent, Assembly-CSharp"
+			}]
+		}
+	]
 }
